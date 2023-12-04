@@ -6,8 +6,8 @@ import { useState } from 'react';
 import 'styles/theme.scss';
 
 // import sub components
-import NavbarVertical from '/layouts/navbars/NavbarVertical';
-import NavbarTop from '/layouts/navbars/NavbarTop';
+import NavbarVertical from '../../layouts/navbars/admin/NavbarVertical';
+import NavbarTop from '../../layouts/navbars/admin/NavbarTop';
 
 export default function DashboardLayout({ children }) {
 	const [showMenu, setShowMenu] = useState(true);
