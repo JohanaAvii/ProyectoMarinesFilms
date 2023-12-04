@@ -5,7 +5,7 @@ export const DashboardMenu = [
 		id: uuid(),
 		title: 'Dashboard',
 		icon: 'home',
-		link: '/'
+		link: '/admin'
 	},
 	{
 		id: uuid(),
@@ -18,8 +18,8 @@ export const DashboardMenu = [
 		title: 'Usuarios',
 		icon: 'user',
 		children: [
-			{ id: uuid(), link: '/pages/user/add-user', name: 'Agregar Usuario' },
-			{ id: uuid(), link: '/pages/user/consult-user', name: 'Consultar Usuario' },
+			{ id: uuid(), link: '/admin/pages/user/add-user', name: 'Agregar Usuario' },
+			{ id: uuid(), link: '/admin/pages/user/consult-user', name: 'Consultar Usuario' },
 			
 		]
 	},	
@@ -34,8 +34,8 @@ export const DashboardMenu = [
 		title: 'Pelicula',
 		icon: 'film',
 		children: [
-			{ id: uuid(), link: '/pages/movie/add', name: 'Cargar pelicula'},
-			{ id: uuid(), link: '/pages/movie/consultar', name: 'Consultar pelicula'},
+			{ id: uuid(), link: '/admin/pages/movie/add', name: 'Cargar pelicula'},
+			{ id: uuid(), link: '/admin/pages/movie/consultar', name: 'Consultar pelicula'},
 			
 		
 		]
@@ -52,7 +52,7 @@ export const DashboardMenu = [
 		icon: 'book',
 		children: [
 			
-			{ id: uuid(), link: '/pages/solicitud', name: 'Consultar Solicitud' },
+			{ id: uuid(), link: '/admin/pages/solicitud', name: 'Consultar Solicitud' },
 			
 			
 		]
